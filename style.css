@@ -1,0 +1,38 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.top>.pick{
+    margin: 10px;
+
+}
+.bottom>button{
+    margin: 10px;
+}
+
+.pick>p{
+    margin: 10px auto;
+    width: 30%;
+}
+.canvas{
+    border: 2px black solid;
+}
+.top, .bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 20px 0px 20px;
+}
+
+input, select, button, .pick{
+    width: 80%;
+}
